@@ -51,9 +51,8 @@ jobs:
           name: Deploy App
           command: |
             npm run frontend:deploy
-            npm run api:deploy
       - run:
-          name: Deploy App
+          name: Deploy Apppp
           command: |
             npm run api:deploy
 
